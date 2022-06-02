@@ -1,0 +1,124 @@
+/* Tipografía */
+
+@font-face {
+    font-family: "Oswald-SemiBold";
+    src: url(../font/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Light";
+    src: url(../font/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: "RobotoCondensed-LightItalic";
+    src: url(../font/RobotoCondensed-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Oswald-Medium";
+    src: url(../font/Oswald-Medium.ttf);
+}
+
+h1{
+    font-family: "Oswald-SemiBold";
+    color: #1D325F;
+
+}
+
+h2{
+    font-family: "Oswald-Medium";
+    color: #1D325F;
+}
+
+h3{
+  font-family: "Oswald-Medium";
+  font-size: 18px;
+
+}
+
+
+p{
+    font-family: "RobotoCondensed-Light";
+    font-size: 16px;
+    color: #1D325F;
+}
+
+a{
+    font-family: "RobotoCondensed-Light";
+}
+
+li{
+    font-family: "RobotoCondensed-Light";
+}
+
+
+/* ---------------Header----------------- */
+
+.cabeza{
+ width: 100%;
+ justify-content: space-between;
+
+}
+
+.logo{
+    width: 100%;
+}
+
+
+/* ----------Banner------------- */
+.banner{
+
+    color: #1D325F;
+}
+
+/* ---------Contenido---------- */
+.contenido{
+    background-color: #F0F0F0;
+    justify-content: center;
+}
+
+.contenido img{
+    width: 100%;
+}
+
+.contenido h3{
+    color: #1D325F;
+}
+
+.contenido2{
+    background-color: #1D325F;
+    justify-content: center;
+}
+
+.contenido2 p{
+    color: #F0F0F0;
+}
+.contenido2 h3{
+    color: #F0F0F0;
+}
+
+
+/* ----------Footer------------- */
+
+.pie{
+    background-color: #1D325F;
+    color: white;
+
+}
+
+.pie h3{
+    color: white;
+}
+
+.pie a{
+    color: #F0F0F0;
+}
+.pie a{
+    color: #F0F0F0;
+}
+
+.pie a:hover{
+    color: #E6B850;
+    text-decoration: none;
+}
