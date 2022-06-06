@@ -1,55 +1,47 @@
-/* Tipografía */
+:root {
+    --dark: #1D325F;
+    --primary: #E6B850;
+    --mainFont: 'Roboto Condensed', sans-serif;
+  
+  }
 
-@font-face {
-    font-family: "Oswald-SemiBold";
-    src: url(../font/Oswald-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: "RobotoCondensed-Light";
-    src: url(../font/RobotoCondensed-Light.ttf);
-}
-
-@font-face {
-    font-family: "RobotoCondensed-LightItalic";
-    src: url(../font/RobotoCondensed-LightItalic.ttf);
-}
-
-@font-face {
-    font-family: "Oswald-Medium";
-    src: url(../font/Oswald-Medium.ttf);
-}
+  body {
+    font-family: var(--mainFont);
+  }
 
 h1{
-    font-family: "Oswald-SemiBold";
+    font-family: var(--mainFont);
+    font-weight: 700 !important;
     color: #1D325F;
 
 }
 
 h2{
-    font-family: "Oswald-Medium";
+    font-family: var(--mainFont);
     color: #1D325F;
+    font-weight: 700 !important;
 }
 
 h3{
-  font-family: "Oswald-Medium";
+    font-family: var(--mainFont);
+    font-weight: 700 !important;
   font-size: 18px;
 
 }
 
 
 p{
-    font-family: "RobotoCondensed-Light";
+    font-family: var(--mainFont);
     font-size: 16px;
     color: #1D325F;
 }
 
 a{
-    font-family: "RobotoCondensed-Light";
+    font-family: var(--mainFont);
 }
 
 li{
-    font-family: "RobotoCondensed-Light";
+    font-family: var(--mainFont);
 }
 
 
