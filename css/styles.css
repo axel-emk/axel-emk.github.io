@@ -2,6 +2,9 @@
     --dark: #1D325F !important;
     --primary: #E6B850;
     --white: #F0F0F0;
+    --grey: #F6F6F6;
+    --light-grey: #EBEEFA;
+    --muted: #F0F0F0;
     --mainFont: 'Roboto Condensed', sans-serif;
   
   }
@@ -9,7 +12,13 @@
 body {
     font-family: var(--mainFont);
     background-color: var(--white) !important;
+    color: var(--dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
+
+  .bg-dark { background-color: var(--dark) !important; }
+
 
 h1{
     font-family: var(--mainFont);
@@ -49,30 +58,28 @@ p{
 
 a{
     font-family: var(--mainFont);
+    color: var(--primary);
+    text-decoration: none;
 }
 
 li{
     font-family: var(--mainFont);
 }
 
+small { font-size: var(--small); }
 
+.bg-dark { background-color: var(--dark) !important; }
+.bg-grey { background-color: var(--grey); }
 
-/* ---------------Header----------------- */
+.text-muted { color: var(--muted) !important; }
+.text-dark { color: var(--dark) !important; }
 
-.cabeza{
- width: 100%;
- justify-content: space-between;
-
-}
-
-.logo{
-    width: 100%;
-}
+.fw-medium { font-weight: var(--medium); }
 
 
 /* ----------Banner------------- */
 .banner{
-
+    /* margin-top: 7%; */
     color: var(--dark);
 }
 
