@@ -18,45 +18,34 @@
 <body>
 
   <!-- ---------HEADER--------------- -->
+<header class="container">
 
-  <section class="container">
-    <article class="row">
-      <header class="cabeza">
-
-        <!-- ----------------Barra de Navegacion--------------- -->
-        <!-- cambiar color al nav -->
-        <nav class=" navbar navbar-expand-lg navbar-dark" style="background-color: #1D325F;">
-
-          <!-- Cambiar imagen logo -->
-          <a class="navbar-brand " href="#"><img class="" src="img/logo1.svg" alt=""></a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <!-- Botones -->
-              <li class="nav-item active m-2">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-2" href="#">Curriculum</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-2" href="#">Portafolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link m-2">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #1D325F;">
+        <a class="navbar-brand " href="#"><img class="img-fluid" src="img/logo1.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <!-- Botones -->
+            <li class="nav-item active m-2">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="#curriculum">Curriculum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="#">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2">Contacto</a>
+            </li>
+          </ul>
         </div>
-     
-      </header>
-    </article>
-  </section>
+      </nav>
+</header>
+
 
 
   <!-- ------------ Banner--------------- -->
@@ -94,51 +83,41 @@
 
   <!-- ------------ informacion1--------------- -->
 
+  <!-- scrollspy  navegar dentro del home -->
   <!-- titulo principal -->
+  <h1 id="curriculum" class="text-center mt-4 mb-4 ">Acerca de mi...</h1>
   <section class="container">
     <article class="row contenido">
 
       <!-- --------------imagen---------------- -->
-      <article class="col-lg-6 col-sm-12 mt-5">
+      <article class="col-lg-6 col-sm-12 m-3">
         <img src="img/img2.png" alt="">
       </article>
 
       <!-- --------------texto---------------- -->
       <article class="col mt-5">
-        <h3 class="mt-2">Acerca de mi... </h3> 
-        <h4 class="mt-3">¡Hola! Soy Axel</h4> 
+        <h3>Diseño Centrado en el Usuario</h3>
         <p>
-          Disfruto de las distintas etapas de las metodologías ágiles en la Investigación UX y el desarrollo UI, me apasiona
-          el generar Wireframes, Prototipos y el Frontend. 
+          Implementar métodos y técnicas UX para caracterizar y reconocer los posibles usuarios y clientes del
+          servicio, desarrollar un análisis para detectar puntos críticos y concluir con
+          oportunidades de mejora.
         </p>
-          <p>
-            Como profesional de la Industria TI busco garantizar que el producto desarrollado cumpla con los estándares de
-          calidad vigentes. Entregando una usabilidad y accesibilidad que permitan que la navegación sea óptima, intuitiva y
-          eficiente.
-          </p>          
-        
+        <h3>User research</h3>
         <p>
-          Cuento con años de experiencia en el desarrollo y administración de Productos Digitales y de Base de Datos, además
-          de conocer distintos lenguajes de programación. Me caracterizo por ser una persona alegre, proactiva y autodidacta,
-          a fin de enriquecer el trabajo en equipo y el cumplimiento de metas. 
-        </p>
-      <p>
-          Me agrada relacionarme en equipos multidisciplinarios, buscando siempre mejorar el aprendizaje y potenciar los
-          conocimientos relacionados en el área.
+          Cuando deseamos incrementar la conversión de un sitio web la investigación en la experiencia de usuario es
+          fundamental, el User Research és un factor clave de éxito. Gracias a esta investigación conoceremos mejor a
+          nuestro usuario, descubriremos qué espera de nuestra web y podremos adaptar la navegación, los textos y la
+          estructura a lo que el usuario está esperando. Esto es especialmente crítico en los comercios electrónicos.
         </p>
       </article>
+    </article>
 
-      
-      </article>
-      <article class="d-flex justify-content-end">
-        <a href=""><button type="button" class="btn btn-dark">Ver Curriculum</button></a>
-      </article>
   </section>
 
   <!-- ------------ informacion2--------------- -->
 
   <!-- titulo principal -->
-  <h1 class="text-center mt-4 mb-4 ">Portafolio</h1>
+  <h1 class="text-center mt-4 mb-4 ">Desarrollo Frontend</h1>
   <section class="container">
     <article class="row contenido2">
 
