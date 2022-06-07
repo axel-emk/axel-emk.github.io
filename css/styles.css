@@ -1,12 +1,12 @@
 :root {
-    --dark: #1D325F;
+    --dark: #1D325F !important;
     --primary: #E6B850;
     --white: #F0F0F0;
     --mainFont: 'Roboto Condensed', sans-serif;
   
   }
 
-  body {
+body {
     font-family: var(--mainFont);
     background-color: var(--white) !important;
   }
@@ -27,16 +27,24 @@ h2{
 h3{
     font-family: var(--mainFont);
     font-weight: 700 !important;
+    color: var(--dark);
     font-size: 18px;
 
 }
 
+h4{
+    font-family: var(--mainFont);
+    font-weight: 400 !important;
+    color: var(--dark);
+    font-size: 18px !important;
+
+}
 
 p{
     font-family: var(--mainFont);
-    font-weight: 300 !important;
+    font-weight: 3git 00 !important;
     font-size: 16px;
-    color: #1D325F;
+    color: var(--dark);
 }
 
 a{
@@ -46,6 +54,7 @@ a{
 li{
     font-family: var(--mainFont);
 }
+
 
 
 /* ---------------Header----------------- */
@@ -64,7 +73,7 @@ li{
 /* ----------Banner------------- */
 .banner{
 
-    color: #1D325F;
+    color: var(--dark);
 }
 
 /* ---------Contenido---------- */
@@ -78,7 +87,7 @@ li{
 }
 
 .contenido h3{
-    color: #1D325F;
+    color: var(--dark);
 }
 
 .contenido2{
@@ -91,6 +100,10 @@ li{
 }
 .contenido2 h3{
     color: #F0F0F0;
+}
+
+.btn-dark{
+    background-color: var(--dark) !important;
 }
 
 
