@@ -14,6 +14,7 @@ body {
     font-family: var(--mainFont);
     background-color: var(--white) !important;
     color: var(--dark);
+    position: relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -105,11 +106,21 @@ small { font-size: var(--small); }
     color: var(--white);
 }
 
+.btn-outline-dark{
+    border-color: var(--dark);  
+    width: 250px;
+}
+.btn-outline-dark:hover{
+    background-color: var(--warning);
+    border-color: var(--warning) !important;
+    color: var(--white);
+}
 
 .btn-sm {
     font-size: var(--paragraph);
     padding: .625rem 1.25rem;
 }
+
 
 
 /* ----------Banner------------- */
