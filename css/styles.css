@@ -1,10 +1,10 @@
 :root {
-    --dark: #1D325F !important;
-    --primary: #E6B850;
+    --dark: #1D325F ;
+    --primary: #739FFF;
     --white: #F0F0F0;
     --grey: #F6F6F6;
     --light-grey: #EBEEFA;
-    --muted: #F0F0F0;
+    --muted: #739FFF;
     --mainFont: 'Roboto Condensed', sans-serif;
   
   }
@@ -76,6 +76,27 @@ small { font-size: var(--small); }
 
 .fw-medium { font-weight: var(--medium); }
 
+.btn {
+    padding: .875rem 1.5rem;
+    border-radius: 0.375rem;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-light{
+    border-color: var(--whithe);
+}
+.btn-outline-light:hover{
+    border-color: var(--primary) !important;
+}
+
+.btn-sm {
+    font-size: var(--paragraph);
+    padding: .625rem 1.25rem;
+}
 
 /* ----------Banner------------- */
 .banner{
