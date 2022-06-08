@@ -4,7 +4,8 @@
     --white: #F0F0F0;
     --grey: #F6F6F6;
     --light-grey: #EBEEFA;
-    --muted: #739FFF;
+    --warning: #E6B850;
+    --muted: #5C5C5C;
     --mainFont: 'Roboto Condensed', sans-serif;
   
   }
@@ -18,7 +19,8 @@ body {
   }
 
   .bg-dark { background-color: var(--dark) !important; }
-
+  .bg-grey { background-color: var(--grey);  }
+  .bg-white { background-color: var(--white);  }
 
 h1{
     font-family: var(--mainFont);
@@ -26,6 +28,8 @@ h1{
     color: var(--dark);
 
 }
+
+/* Tipografia */
 
 h2{
     font-family: var(--mainFont);
@@ -44,14 +48,14 @@ h3{
 h4{
     font-family: var(--mainFont);
     font-weight: 400 !important;
-    color: var(--dark);
-    font-size: 18px !important;
+    color: var(--primary);
+    font-size: 22px !important;
 
 }
 
 p{
     font-family: var(--mainFont);
-    font-weight: 3git 00 !important;
+    font-weight: 300 !important;
     font-size: 16px;
     color: var(--dark);
 }
@@ -68,13 +72,13 @@ li{
 
 small { font-size: var(--small); }
 
-.bg-dark { background-color: var(--dark) !important; }
-.bg-grey { background-color: var(--grey); }
-
 .text-muted { color: var(--muted) !important; }
 .text-dark { color: var(--dark) !important; }
+.text-primary { color: var(--primary) !important; }
 
 .fw-medium { font-weight: var(--medium); }
+
+/* Buttons */
 
 .btn {
     padding: .875rem 1.5rem;
@@ -86,17 +90,27 @@ small { font-size: var(--small); }
     border-color: var(--primary);
 }
 
+.btn-primary:hover{
+    background-color: var(--dark);
+    border-color: var(--primary);
+    color: var(--white);
+}
+
 .btn-outline-light{
     border-color: var(--whithe);
 }
 .btn-outline-light:hover{
-    border-color: var(--primary) !important;
+    background-color: var(--warning);
+    border-color: var(--warning) !important;
+    color: var(--white);
 }
+
 
 .btn-sm {
     font-size: var(--paragraph);
     padding: .625rem 1.25rem;
 }
+
 
 /* ----------Banner------------- */
 .banner{
