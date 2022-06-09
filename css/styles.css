@@ -76,6 +76,7 @@ small { font-size: var(--small); }
 .text-muted { color: var(--muted) !important; }
 .text-dark { color: var(--dark) !important; }
 .text-primary { color: var(--primary) !important; }
+.text-warning { color: var(--warning) !important; }
 
 .fw-medium { font-weight: var(--medium); }
 
