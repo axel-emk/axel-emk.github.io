@@ -108,12 +108,12 @@ small { font-size: var(--small); }
 
 .btn-outline-dark{
     border-color: var(--dark);  
-    width: 250px;
+    
 }
 .btn-outline-dark:hover{
     background-color: var(--warning);
     border-color: var(--warning) !important;
-    color: var(--white);
+    color: var(--dark);
 }
 
 .btn-sm {
@@ -125,7 +125,6 @@ small { font-size: var(--small); }
 
 /* ----------Banner------------- */
 .banner{
-    /* margin-top: 7%; */
     color: var(--dark);
 }
 
