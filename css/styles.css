@@ -60,7 +60,6 @@ h4{
 p{
     font-family: var(--mainFont);
     font-weight: 300 !important;
-    font-size: 16px;
     color: var(--dark);
 }
 
