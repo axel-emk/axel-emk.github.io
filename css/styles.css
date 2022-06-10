@@ -7,7 +7,10 @@
     --warning: #E6B850;
     --muted: #5C5C5C;
     --mainFont: 'Roboto Condensed', sans-serif;
-  
+    --h1: 3.5rem;
+    --paragraph: 1rem;
+    --small: .75rem;
+    --medium: 500;
   }
 
 body {
