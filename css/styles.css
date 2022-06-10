@@ -8,9 +8,7 @@
     --muted: #5C5C5C;
     --mainFont: 'Roboto Condensed', sans-serif;
     --h1: 3.5rem;
-    --paragraph: 1rem;
-    --small: .75rem;
-    --medium: 500;
+
   }
 
 body {
@@ -61,6 +59,7 @@ p{
     font-family: var(--mainFont);
     font-weight: 300 !important;
     color: var(--dark);
+    font-size: 18px;
 }
 
 a{
@@ -161,27 +160,3 @@ small { font-size: var(--small); }
     background-color: var(--dark) !important;
 }
 
-
-/* ----------Footer------------- */
-
-.pie{
-    background-color: #1D325F;
-    color: white;
-
-}
-
-.pie h3{
-    color: white;
-}
-
-.pie a{
-    color: #F0F0F0;
-}
-.pie a{
-    color: #F0F0F0;
-}
-
-.pie a:hover{
-    color: #E6B850;
-    text-decoration: none;
-}
