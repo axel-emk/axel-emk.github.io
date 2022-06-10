@@ -7,7 +7,10 @@
     --warning: #E6B850;
     --muted: #5C5C5C;
     --mainFont: 'Roboto Condensed', sans-serif;
-  
+    --h1: 3.5rem;
+    --paragraph: 1rem;
+    --small: .75rem;
+    --medium: 500;
   }
 
 body {
@@ -76,6 +79,7 @@ small { font-size: var(--small); }
 .text-muted { color: var(--muted) !important; }
 .text-dark { color: var(--dark) !important; }
 .text-primary { color: var(--primary) !important; }
+.text-warning { color: var(--warning) !important; }
 
 .fw-medium { font-weight: var(--medium); }
 
