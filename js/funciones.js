@@ -16,25 +16,30 @@ const logos = () => {
 // ---------------------------------------------------------------------------------------------------
 const cambiarClassName = () =>{
     // Elementos ClassName - ID
-    const lightColor = document.getElementsByClassName('bg-light', 'navbar-light', 'carousel' );
+    const lightColor = document.getElementsByClassName('bg-light');
+    const textLigth = document.getElementsByClassName('text-ligth');  
+    const textDark = document.getElementsByClassName('text-dark' );  
     const btnLigth = document.querySelectorAll("a[id='noche']");
-    const textLigth = document.getElementsByClassName('text-bg-light');  
     // Ciclo For para poder seleccionar todas las class
     for(let i = 0; i < lightColor.length; i++ )
     {
         lightColor[i].classList.toggle('bg-dark');        
-        lightColor[i].classList.toggle('navbar-dark');
-        lightColor[i].classList.toggle('carousel-dark');
     };
-
+    
     for(let i = 0; i < btnLigth.length; i++ )
     {
         btnLigth[i].classList.toggle('btn-dark');
     };
-
+    
     for(let i = 0; i < textLigth.length; i++ )
     {
-        textLigth[i].classList.toggle('text-bg-dark');
+        // links
+        textLigth[i].classList.toggle('text-nigth');
+    };
+    for(let i = 0; i < textDark.length; i++ )
+    {
+        // textos
+        textDark[i].classList.toggle('text-white');
     };
 
     return logos();
