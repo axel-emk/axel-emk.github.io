@@ -1,5 +1,6 @@
+/* Variables */
 :root {
-    --dark: #1D325F ;
+    --dark: #1A2C54 ;
     --primary: #739FFF;
     --white: #F0F0F0;
     --grey: #F6F6F6;
@@ -8,12 +9,10 @@
     --muted: #5C5C5C;
     --mainFont: 'Roboto Condensed', sans-serif;
     --h1: 3.5rem;
-
   }
 
 body {
     font-family: var(--mainFont);
-    background-color: var(--white) !important;
     color: var(--dark);
     position: relative;
     -webkit-font-smoothing: antialiased;
