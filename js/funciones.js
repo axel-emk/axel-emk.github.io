@@ -19,6 +19,7 @@ const cambiarClassName = () =>{
     const lightColor = document.getElementsByClassName('bg-light');
     const textLigth = document.getElementsByClassName('text-ligth');  
     const textDark = document.getElementsByClassName('text-dark' );  
+    const textMuted = document.getElementsByClassName('text-muted' );  
     const btnLigth = document.querySelectorAll("a[id='noche']");
     // Ciclo For para poder seleccionar todas las class
     for(let i = 0; i < lightColor.length; i++ )
@@ -40,6 +41,11 @@ const cambiarClassName = () =>{
     {
         // textos
         textDark[i].classList.toggle('text-white');
+    };
+    for(let i = 0; i < textMuted.length; i++ )
+    {
+        // textos muted
+        textMuted[i].classList.toggle('text-white');
     };
 
     return logos();
