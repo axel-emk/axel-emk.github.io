@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--mainFont);
-    color: var(--dark);
+    /* color: var(--dark); */
     position: relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -31,9 +31,6 @@ nav{
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.17);
 
 }
-  .bg-dark { background-color: var(--dark) !important; }
-  .bg-grey { background-color: var(--grey);  }
-  .bg-white { background-color: var(--white);  }
 
 h1{
     font-family: var(--mainFont);
@@ -85,12 +82,20 @@ li{
     font-family: var(--mainFont);
 }
 
+/* BG - Colors */
+.bg-dark { background-color: var(--dark) !important; }
+.bg-grey { background-color: var(--grey) !important;  }
+.bg-white { background-color: var(--white) !important;  }
+/* Gradient */
+.bg-gradient { background-image: linear-gradient(0deg, rgba(115,159,255,0.7) 0%, rgba(115,159,255,0.5) 20%, rgba(240,240,240,0) 85%) !important;}
+
+
 /* text-colors */
 /* Intercactivos */
 .text-ligth { color: var(--dark); }
 .text-ligth:hover { color: var(--primary) !important;}
-.text-nigth{ color: var(--primary) !important; }
-.text-nigth:hover{ color: var(--warning) !important;}
+.text-nigth{ color: var(--white) !important; }
+.text-nigth:hover{ color: var(--primary) !important;}
 
 /* Textos Color */
 .text-muted { color: var(--muted) !important; }
@@ -181,4 +186,13 @@ small { font-size: var(--small); }
 }
 
 
+
+.prueba{
+    background-image: linear-gradient(to right, darkslategray, black);
+}
+
+/* #grad1 {
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  } */
 
