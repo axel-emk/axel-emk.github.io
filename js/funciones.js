@@ -19,16 +19,17 @@ const cambiarClassName = () =>{
     const lightColor = document.getElementsByClassName('bg-light');
     const textLigth = document.getElementsByClassName('text-ligth');  
     const textDark = document.getElementsByClassName('text-dark' );  
-    const btnLigth = document.querySelectorAll("a[id='noche']");
+    const textMuted = document.getElementsByClassName('text-muted' );  
+    const nigthLink = document.querySelectorAll("a[id='nigthLink']");
     // Ciclo For para poder seleccionar todas las class
     for(let i = 0; i < lightColor.length; i++ )
     {
         lightColor[i].classList.toggle('bg-dark');        
     };
     
-    for(let i = 0; i < btnLigth.length; i++ )
+    for(let i = 0; i < nigthLink.length; i++ )
     {
-        btnLigth[i].classList.toggle('btn-dark');
+        nigthLink[i].classList.toggle('skyLink');
     };
     
     for(let i = 0; i < textLigth.length; i++ )
@@ -40,6 +41,11 @@ const cambiarClassName = () =>{
     {
         // textos
         textDark[i].classList.toggle('text-white');
+    };
+    for(let i = 0; i < textMuted.length; i++ )
+    {
+        // textos muted
+        textMuted[i].classList.toggle('text-white');
     };
 
     return logos();
