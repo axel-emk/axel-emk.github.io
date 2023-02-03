@@ -20,16 +20,16 @@ const cambiarClassName = () =>{
     const textLigth = document.getElementsByClassName('text-ligth');  
     const textDark = document.getElementsByClassName('text-dark' );  
     const textMuted = document.getElementsByClassName('text-muted' );  
-    const btnLigth = document.querySelectorAll("a[id='noche']");
+    const nigthLink = document.querySelectorAll("a[id='nigthLink']");
     // Ciclo For para poder seleccionar todas las class
     for(let i = 0; i < lightColor.length; i++ )
     {
         lightColor[i].classList.toggle('bg-dark');        
     };
     
-    for(let i = 0; i < btnLigth.length; i++ )
+    for(let i = 0; i < nigthLink.length; i++ )
     {
-        btnLigth[i].classList.toggle('btn-dark');
+        nigthLink[i].classList.toggle('skyLink');
     };
     
     for(let i = 0; i < textLigth.length; i++ )
