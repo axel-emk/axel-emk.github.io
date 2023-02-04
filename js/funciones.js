@@ -20,7 +20,9 @@ const cambiarClassName = () =>{
     const textLigth = document.getElementsByClassName('text-ligth');  
     const textDark = document.getElementsByClassName('text-dark' );  
     const textMuted = document.getElementsByClassName('text-muted' );  
+    const removeDark = document.getElementsByClassName('carousel' );  
     const nigthLink = document.querySelectorAll("a[id='nigthLink']");
+    
     // Ciclo For para poder seleccionar todas las class
     for(let i = 0; i < lightColor.length; i++ )
     {
@@ -30,6 +32,11 @@ const cambiarClassName = () =>{
     for(let i = 0; i < nigthLink.length; i++ )
     {
         nigthLink[i].classList.toggle('skyLink');
+    };
+
+    for(let i = 0; i < removeDark.length; i++ )
+    {
+        removeDark[i].classList.toggle('carousel-dark');
     };
     
     for(let i = 0; i < textLigth.length; i++ )
@@ -49,6 +56,7 @@ const cambiarClassName = () =>{
     };
 
     return logos();
+
 };
 
 //  Toggle
