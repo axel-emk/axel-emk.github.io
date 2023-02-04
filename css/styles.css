@@ -102,7 +102,7 @@ li{
 .text-ligth { color: var(--dark); }
 .text-ligth:hover { color: var(--primary) !important;}
 .text-nigth{ color: var(--white) !important; }
-.text-nigth:hover{ color: var(--primary) !important;}
+.text-nigth:hover{ color: var(--warning) !important;}
 
 /* Textos Color */
 .text-muted { color: var(--muted) !important; }
