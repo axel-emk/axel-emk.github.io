@@ -17,6 +17,7 @@ const logos = () => {
 const cambiarClassName = () =>{
     // Elementos ClassName - ID
     const lightColor = document.getElementsByClassName('bg-light');
+    const cardLigth = document.getElementsByClassName('text-bg-light');
     const textLigth = document.getElementsByClassName('text-ligth');  
     const textDark = document.getElementsByClassName('text-dark' );  
     const textMuted = document.getElementsByClassName('text-muted' );  
@@ -27,6 +28,11 @@ const cambiarClassName = () =>{
     for(let i = 0; i < lightColor.length; i++ )
     {
         lightColor[i].classList.toggle('bg-dark');        
+    };
+
+    for(let i = 0; i < cardLigth.length; i++ )
+    {
+        cardLigth[i].classList.toggle('text-bg-dark');        
     };
     
     for(let i = 0; i < nigthLink.length; i++ )
