@@ -17,6 +17,10 @@
     font-size: 20px !important;
 }
 
+/* .shadow{
+    box-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2) !important;
+} */
+
 /* Etiquetas */
 
 body {
@@ -32,18 +36,20 @@ header{
     margin-bottom: 100px;
 }
 nav{
-    box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2);
+    /* box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.2); */
     /* box-shadow: -4px 3px 0 var(--warning), -14px 7px 0 var(--primary); */
     /* box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.6); */
 
 }
+
 
 /* Tipografia */
 h1{
     font-family: var(--mainFont);
     font-weight: 700 !important;
     /* color: var(--dark); */
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2);
 
 }
 
@@ -181,7 +187,6 @@ small { font-size: var(--small); }
 }
 
 /* New JS */
-
 #nigthLink{
     font-size: 40px;
     color: var(--primary);
@@ -195,7 +200,7 @@ small { font-size: var(--small); }
     0 0.0625em 0 #2cfcfd, 
     0 -0.03125em 0 #fb203b, 
     0 -0.0625em 0 #fefc4b; */
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2);
 }   
 
 #nigthLink:hover{
@@ -247,8 +252,14 @@ small { font-size: var(--small); }
 
 
 .prueba{
-    background-image: linear-gradient(to right, darkslategray, black);
+    background-image: linear-gradient(to left, var(--primary), var(--dark) );
 }
+.prueba2{
+    background-image: linear-gradient(to left, var(--warning), var(--white) );
+}
+/* .prueba{
+    background-image: linear-gradient(to right, darkslategray, black);
+} */
 
 /* #grad1 {
     height: 200px;

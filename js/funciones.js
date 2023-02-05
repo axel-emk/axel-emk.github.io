@@ -20,7 +20,8 @@ const cambiarClassName = () =>{
     const cardLigth = document.getElementsByClassName('text-bg-light');
     const textLigth = document.getElementsByClassName('text-ligth');  
     const textDark = document.getElementsByClassName('text-dark' );  
-    const textMuted = document.getElementsByClassName('text-muted' );  
+    const textMuted = document.getElementsByClassName('text-muted');  
+     
     const removeDark = document.getElementsByClassName('carousel' );  
     const nigthLink = document.querySelectorAll("a[id='nigthLink']");
     
