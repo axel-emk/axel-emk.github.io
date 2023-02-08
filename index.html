@@ -1,203 +1,521 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Forma Gráfica</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="/css/media.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-  integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-65HDGBPD3T"></script>
+    <!--  CSS -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Icono -->
+    <link rel="shortcut icon" href="./img/isotipo.png">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-65HDGBPD3T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-65HDGBPD3T');
+    </script>
+
+    <title>Axel | UX/UI Designer | Frontend Developer </title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu">
+    <!-- --------------------HEADER-------------------------------- -->
+    <header>
+        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow animate__animated animate__fadeInDown animate__fast">
+            <div class="container d-flex">
+                <!-- LOGO Animate -->
+                <a class="flex-grow-1 animate__animated animate__pulse animate__repeat-3 animate__delay-3s" href="#"><img src="./img/logo-dark.svg"></a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item mb-2 mb-lg-0">
+                            <a class="nav-link " aria-current="page" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item mb-2 mb-lg-0">
+                            <a class="nav-link " href="#seccion-1">Acerca de mi</a>
+                        </li>
+                        <li class="nav-item mb-2 mb-lg-0">
+                            <a class="nav-link " href="#seccion-2">Portafolio</a>
+                        </li>
+                        <li class="nav-item mb-2 mb-lg-0">
+                            <a class="nav-link " href="#seccion-3">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-sm-row">
+                        <li class="nav-item mb-3 mb-lg-0 me-0 me-sm-3">
+                            <a href="https://github.com/axel-emk" target="_blank"
+                                class="btn btn-outline-light btn-sm d-block "><img class="p-2"
+                                    src="./img/github-logo.svg" alt="">GitHub</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="https://www.linkedin.com/in/axelzamorano/" target="_blank"
+                                class="btn btn-primary btn-sm d-block"><img class="p-2" src="./img/linkedin-logo.svg"
+                                    alt="">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- --------------------Banner Servicios-------------------------------- -->
+    <section id="home" class="bg-ligth mt-5 mb-4 shadow-sm animate__animated animate__fadeInDown animate__slow">
+        <div class="container text-center">
+            <div class="row mb-6 mt-4 pt-4">
+                <div class="col-xl-8 offset-xl-2 banner">
+                </div>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/img/banner1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="#seccion-2" class="btn btn-outline-dark btn-sm ">
+                                <img class="p-2" src="" alt="">Ver Portafolio</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./img/banner2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+<!-- S -->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-white">Metodologías Agiles </h1>
+                            <p class="lead text-white">Individuos e Interacciones sobre procesos y herramientas.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------Curriculum-------------------------------- -->
+    <section id="seccion-1" class="bg-ligth pt-5 pb-5">
+        <div class="container">
+            <div class="row mb-5 ">
+                <div class="col-lg-5 d-flex align-items-center mb-5 mb-lg-0 wow data-wow-duration= '2s' animate__animated animate__backInLeft ">
+                    <div>
+                        <h1 class="pb-3">Según estudios, casi el 95% de las personas no confían en los <a
+                                href="https://truelist.co/blog/ux-statistics/" target="_blank">sitios web obsoletos</a>
+                        </h1>
+
+                        <p class="lead text-muted pb-4">¡Hola! Soy Axel, Diseñador UX/UI y Desarrollador Frontend.
+                            Como profesional de la Industria TI disfruto de las distintas metodologías de la Investigación UX, como también
+                            las etapas del Diseño UI, me apasiona el generar Wireframes, Prototipos y el Desarrollo
+                            Frontend centrado en el Usuario.</p>
+                 <a href="https://www.behance.net/axelzamoranov" target="_blank"
+                            class="btn btn-primary btn-sm d-block"><img class="p-2" src="./img/behance-logo.svg"
+                                alt="">Portafolio UX/UI</a> 
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <img src="/img/img-02.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <img src="img/img-03.png" class="img-fluid">
+                </div>
+                <div class="col-lg-5 offset-lg-1 d-flex align-items-center order-1 order-lg-2 mb-5 mb-lg-0 wow data-wow-duration= '2s' animate__animated animate__backInRight">
+                    <div>
+                        <h1 class="mb-3 text-end">¿Sabias que una buena interfaz de usuario puede aumentar las tasas de
+                            conversión del sitio <a href="https://truelist.co/blog/ux-statistics/" target="_blank">web
+                                hasta en un 200%?</a></h1>
+                        <p class="lead text-muted text-end">"La investigación sirve para comprender quien es nuestro usuario y que necesidades, objetivos y motivaciones tiene"
+                        </p>                                            
+                                <a href="https://drive.google.com/file/d/1wsfAvBNB6zKh7b5t4aPl0LmV0l0UDYzK/view?usp=sharing"
+                            target="_blank" class="btn btn-outline-dark btn-sm mb-5 d-block"><img class="p-2"
+                                src="./img/pdf-logo.svg" alt="">Aquí puedes ver mi Curriculum</a>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------- Skills Habilidades -------------------------------- -->
+    <section class="bg-ligth pb-0 pt-5">
+        <div class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="py-5 my-5">
+                            <h1 class="text-white pb-1">Habilidades y Conocimientos</h1>
+                            <p class="text-white pb-1 col-10">Cada proceso es único y diferente, donde la adaptabilidad es un pilar importante para estar preparado para la constante iteración que lleva un proceso de investigación UX.</p>
+                            <div class="col-lg-10">
+
+                                <div class="accordion shadow" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <!-- Acordeon I-->
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button collapsed text-dark" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                                Características Personales
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="p-1">
+                                                    <p class="text-dark">
+                                                        - Liderazgo<br>
+                                                        - Trabajo en Equipo<br>
+                                                        - Pensamiento Critico <br>
+                                                        - Proactivo<br>
+                                                        - Metodologías Agile, Scrum, Design Thinking.<br>
+                                                        - Inglés Técnico nivel medio.
+                                                        </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Acordeon II-->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed text-dark" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Aplicaciones y Softwares
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="p-1">
+                                                    <p>Algunos de los Software que mas trabajo en la actualidad. </p>
+                                                    <img src="./img/apps.png" class="img-fluid mb-3 mb-sm-0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Acordeon III -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed text-dark" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Habilidades técnicas
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <div class="p-1">
+                                                    <p>Habilidades técnicas</p>
+                                                    <img src="./img/lenguajes.png" class="img-fluid mb-3 mb-sm-0">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Imagen smartphone -->
+                    <div class="col-lg-6 position-relative d-lg-flex justify-content-center  pt-5 d-none wow data-wow-duration= '2s' animate__animated animate__headShake animate__infinite animate__infinite animate__delay-2s">
+                        <img src="./img/img-06.png" class="img-fluid position-absolute bottom-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- ---------------------Portafolio------------------------- -->
+    <section id="seccion-2" class="bg-ligth pb-0 ">
+        <div class="bg-ligth">
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-lg-12">
+                        <div class="py-5 my-5">
+                            <h1 class="pb-4 text-center">Portafolio de Proyectos</h1>
+                            <div class="card-group">
+                                <!-- ******CARDS I ******* -->
+                                <div class="card wow animate__animated animate__zoomInUp">
+                                    <img src="./img/card-boots.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Wireframes y Prototipos</h5>
+                                        <hr>
+                                        
+                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt="">
+                                                <a href="./html/wireframe-codeate.html"
+                                                target="_blank" class="text-dark"> 
+                                                Wireframe - Rediseño Sitio Web Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        
+                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt="">
+                                                <a href="./html/prototipo-codeate.html"
+                                                target="_blank" class="text-dark"> 
+                                                Prototipo - Flujo de Compra Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        <a href="./html/wireframe-dalecuerda.html" target="_blank">
+                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt=""> 
+                                                Wireframe - Proyecto Ecommerce Dalecuerda <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        <a href="./html/wireframe-porotapp.html" target="_blank">
+                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt=""> 
+                                                Wireframe -Proyecto App de Recetas <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                    </div>
+                                    <div class="card-footer bg-dark">
+                                        <small class="text-muted">...</small>
+                                    </div> 
+                                </div>
+                                <!-- ******CARDS II ******* -->
+                                <div class="card wow data-wow-delay= '3s' animate__animated animate__zoomInUp">
+                                    <img src="./img/card-ux.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">UX Research</h5>
+                                        <hr>
+                                        <a target="_blank" href="https://www.behance.net/gallery/145766603/UX-Research">
+                                            <p class="card-text p-1"><img src="./img/behance-logo-color.svg" class="p-1" class="p-1" alt=""> DCU -
+                                                Rediseño Sitio Web Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p> 
+                                        </a>
+                                        <hr>
+                                        <a target="_blank" href="https://www.behance.net/gallery/146273711/Research-Ecommerce-Dalecuerda">
+                                            <p class="card-text p-1"><img src="./img/behance-logo-color.svg" class="p-1" alt=""> 
+                                                Research - Ecommerce "Dalecuerda"     <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        <a href="#">
+                                            <p class="card-text p-1"><img src="./img/behance-logo-color.svg" class="p-1" alt=""> 
+                                                Próximamente mas proyectos      <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        <a href="#">
+                                            <p class="card-text p-1"><img src="./img/behance-logo-color.svg" class="p-1" alt=""> 
+                                                Próximamente mas proyectos      <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                    </div>
+                                    <div class="card-footer bg-dark">
+                                        <small class="text-muted">...</small>
+                                    </div>
+                                </div>
+                                <!-- ******CARDS III ******* -->
+                                <div class="card wow data-wow-delay= '5s' animate__animated animate__zoomInUp">
+                                    <img src="./img/card-front.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Desarrollo Frontend</h5>
+                                        <hr>
+                                        <a href="https://axel-emk.github.io/Proyecto-Ecommerce-Dalecuerda/" target="_blank">
+                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" class="p-1" alt=""> 
+                                               Proyecto Dalecuerda - Frontend <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        <a target="_blank" href="https://axel-emk.github.io/LaFormaGames/index.html">
+                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" alt="">  
+                                                LaFormaGames - Portal de Webgames <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        <a href="">
+                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" alt=""> 
+                                                Próximamente mas proyectos     <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                        <a href="">
+                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" alt=""> 
+                                                Próximamente mas proyectos     <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        </a>
+                                        <hr>
+                                    </div>
+                                    <div class="card-footer bg-dark">
+                                        <small class="text-muted">...</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------Contacto------------------- -->
+    <section  id="seccion-3" class="bg-white">
+        <article class="container">
+        <div >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 position-relative d-lg-flex justify-content-center pt-5 mt-5 d-none">
+                        <img src="./img/img-08.png" class="img-fluid position-absolute pt-2 mt-3">
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <div class=" my-5">
+                            <h1 class="text-dark pb-4">Contacto</h1>
+                            <div class="col-lg-10">
+                                <div class="col-md-12 p-2">
+                                    <label for="inputPassword4" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="inputPassword4">
+                                  </div>
+                                <div class="col-md-12 p-2">
+                                  <label for="inputEmail4" class="form-label">Email</label>
+                                  <input type="email" class="form-control" placeholder="Correo" id="inputEmail4">
+                                </div>
+                
+                                <div class="col-12 p-2">
+                                    <div class="">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos tu Comentarios"></textarea>
+                                      </div>
+                                </div>
+                               
+                                <div class="col-md-4 p-2">
+                                  <label for="inputState" class="form-label">Necesitad del contacto</label>
+                                  <select id="inputState" class="form-select">
+                                    <option selected>Diseño UX/UI</option>
+                                    <option>Desarrollo Frontend</option>
+                                    <option>UX Research</option>
+                                    <option>Otro</option>
+                                  </select>
+                                </div>
+                                <div class="col-12 p-2">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                      Newsletter
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+    </section>
+    <!-- -------------------FOOTER ----------------------------- -->
+    <footer class="bg-dark pt-5 pb-4 border-top">
+        <div class="container">
+            <!--             <div class="row py-4">
+
+                <div class="col-lg-6 mb-5">
+                    <img src="./img/logo1.svg" class="img-fluid">
+                    <p class="text-warning">Diseño y Desarrollo Web</p>
+                   <a href="#" class="me-3">
+                        <img src="assets/images/playstore.svg" class="img-fluid">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/appstore.svg" class="img-fluid">
+                    </a> 
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <p class="lead fw-medium text-white mb-2">Productos</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted">Cursos</a></li>
+                        <li><a href="#" class="text-muted">Tutoriales</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <p class="lead fw-medium text-white mb-2">Compañia</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted">Acerca de Templune</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Blog</a></li>
+                        <li><a href="#" class="text-muted">Quiero ser instructor</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <p class="lead fw-medium text-white mb-2">Soporte</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted">Chat en línea</a></li>
+                        <li><a href="#" class="text-muted">Hablar con un asesor</a></li>
+                    </ul>
+                </div>
+            </div> -->
+
+            <div class="row border-top pt-4 g-0">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="./img/logo-dark.svg" class="img-fluid">
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-lg-end">
+                        <p class="text-white me-3 mb-0">Buscame en:</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item me-3"><a href="https://www.linkedin.com/in/axelzamorano/"
+                                    target="_blank"><img src="./img/linkedin-logo.svg"></a></li>
+                            <li class="list-inline-item me-3"><a href="https://www.behance.net/axelzamoranov"
+                                    target="_blank"><img src="./img/behance-logo.svg"></a>
+                            </li>
+                            <li class="list-inline-item"><a href="https://github.com/axel-emk" target="_blank"><img
+                                        src="./img/github-logo.svg"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- --------------SCRIPT--------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+    <!-- Hotjar Tracking Code for https://axel-emk.github.io/ -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-65HDGBPD3T');
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3146477,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 
-</head>
-
-<body>
-
-  <!-- ---------HEADER--------------- -->
-<header class="container">
-
-     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #1D325F;">
-        <a class="navbar-brand " href="#"><img class="img-fluid" src="img/logo1.svg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <!-- Botones -->
-            <li class="nav-item active m-2">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link m-2" href="#curriculum">Curriculum</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link m-2" href="#">Portafolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link m-2">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-</header>
-
-
-
-  <!-- ------------ Banner--------------- -->
-
-  <section class="container">
-    <article class="row banner">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/banner1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/banner3.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
-      </div>
-    </article>
-  </section>
-
-  <!-- ------------ informacion1--------------- -->
-
-  <!-- scrollspy  navegar dentro del home -->
-  <!-- titulo principal -->
-  <h1 id="curriculum" class="text-center mt-4 mb-4 ">Acerca de mi...</h1>
-  <section class="container">
-    <article class="row contenido">
-
-      <!-- --------------imagen---------------- -->
-      <article class="col-lg-6 col-sm-12 m-3">
-        <img src="img/img2.png" alt="">
-      </article>
-
-      <!-- --------------texto---------------- -->
-      <article class="col mt-5">
-        <h3>Diseño Centrado en el Usuario</h3>
-        <p>
-          Implementar métodos y técnicas UX para caracterizar y reconocer los posibles usuarios y clientes del
-          servicio, desarrollar un análisis para detectar puntos críticos y concluir con
-          oportunidades de mejora.
-        </p>
-        <h3>User research</h3>
-        <p>
-          Cuando deseamos incrementar la conversión de un sitio web la investigación en la experiencia de usuario es
-          fundamental, el User Research és un factor clave de éxito. Gracias a esta investigación conoceremos mejor a
-          nuestro usuario, descubriremos qué espera de nuestra web y podremos adaptar la navegación, los textos y la
-          estructura a lo que el usuario está esperando. Esto es especialmente crítico en los comercios electrónicos.
-        </p>
-      </article>
-    </article>
-
-  </section>
-
-  <!-- ------------ informacion2--------------- -->
-
-  <!-- titulo principal -->
-  <h1 class="text-center mt-4 mb-4 ">Desarrollo Frontend</h1>
-  <section class="container">
-    <article class="row contenido2">
-
-      <!-- --------------texto---------------- -->
-      <article class="col mt-5 ml-4">
-        <h3>Mi Historia</h3>
-        <p>
-          Cuento con años de experiencia en el desarrollo y administración de Productos Digitales y administración de
-          Base de Datos, dos áreas distintas, esto gracias a mi inquietud y ganas de tener nuevos desafíos, y esto me da
-          la capacidad de tener un lenguaje fluido con las distintas áreas del desarrollo, ya sea frontend como backend.
-        </p>
-        <h3>HTML, CSS y JavaScript</h3>
-        <p>
-          Desarrollar aplicaciones web desde el lado del cliente, que den solución a las necesidades de la organización, y aplicando las buenas prácticas de la industria para obtener un producto con niveles de calidad requeridos.
-        </p>
-      </article>
-      <!-- --------------imagen---------------- -->
-      <article class="   m-3">
-        <img src="img/img1.png" alt="">
-      </article>
-
-    </article>
-  </section>
-
-
-  <!-- ------------ Footer--------------- -->
-
-  <footer class="container">
-    <article class="row mt-3">
-
-
-
-      <article class="pie col">
-
-        <img class="d-block w-90 mt-5 ml-5" src="img/logo1.jpg" alt="">
-      </article>
-      <article class="pie col">
-        <h3 class=" mt-3 col">Contacto</h3>
-        <ul class=" col">
-          <li class="col col-sm-12 col-md"><a href="https://www.behance.net/axelzamoranov">Behance</a></li>
-          <li class="col col-sm-12 col-md"><a href="https://www.linkedin.com/in/axelzamorano/">Linkedin</a></li>
-          <li class="col col-sm-12 col-md"><a href="">Instagram</a></li>
-        </ul>
-      </article>
-      <article class="pie col">
-        <h3 class=" mt-3 col">Perfil Profesional</h3>
-        <ul class="col">
-          <li class="col col-sm-12 col-md">UX/UI Designer</li>
-          <li class="col col-sm-12 col-md">Frontend Developer</li>
-          <li class="col col-sm-12 col-md">Support Database</li>
-        </ul>
-      </article>
-
-
-
-
-    </article>
-  </footer>
-
-  <!-- ------------------JS------------------------- -->
-
-  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-    crossorigin="anonymous"></script>
-
 </body>
-
 </html>
