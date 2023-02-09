@@ -21,6 +21,8 @@ const cambiarClassName = () =>{
     const textLigth = document.getElementsByClassName('text-ligth');  
     const textDark = document.getElementsByClassName('text-dark' );  
     const textMuted = document.getElementsByClassName('text-muted');  
+    const textBlanco = document.getElementsByClassName('text-blanco');  
+    const gradientNight = document.getElementsByClassName('gradient-night');  
      
     const removeDark = document.getElementsByClassName('carousel' );  
     const nigthLink = document.querySelectorAll("a[id='nigthLink']");
@@ -60,6 +62,16 @@ const cambiarClassName = () =>{
     {
         // textos muted
         textMuted[i].classList.toggle('text-white');
+    };
+    for(let i = 0; i < textBlanco.length; i++ )
+    {
+        // textos blanco
+        textBlanco[i].classList.toggle('text-noche');
+    };
+    for(let i = 0; i < gradientNight.length; i++ )
+    {
+        // Gradient Night
+        gradientNight[i].classList.toggle('gradient-light');
     };
 
     return logos();
