@@ -114,6 +114,8 @@ li{
 .text-primary { color: var(--primary) !important; }
 .text-warning { color: var(--warning) !important; }
 .text-white{ color: var(--white) !important; }
+.text-blanco{ color: var(--white) ; }
+.text-noche{ color: var(--sark) ; }
 
 small { font-size: var(--small); }
 .fw-medium { font-weight: var(--medium); }
