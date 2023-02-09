@@ -6,38 +6,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--  CSS -->
-    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="./css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/animate.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <!-- Icono -->
-    <link rel="shortcut icon" href="./img/isotipo.png">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-65HDGBPD3T"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-65HDGBPD3T');
-    </script>
-
     <title>Axel | UX/UI Designer | Frontend Developer </title>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#menu">
     <!-- --------------------HEADER-------------------------------- -->
     <header>
-        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow animate__animated animate__fadeInDown animate__fast">
+        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
             <div class="container d-flex">
-                <!-- LOGO Animate -->
-                <a class="flex-grow-1 animate__animated animate__pulse animate__repeat-3 animate__delay-3s" href="#"><img src="./img/logo-dark.svg"></a>
+                <a class="flex-grow-1" href="#"><img src="./img/logo1.svg"></a>
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +60,7 @@
         </nav>
     </header>
     <!-- --------------------Banner Servicios-------------------------------- -->
-    <section id="home" class="bg-ligth mt-5 mb-4 shadow-sm animate__animated animate__fadeInDown animate__slow">
+    <section id="home" class="bg-ligth mt-5 shadow-sm ">
         <div class="container text-center">
             <div class="row mb-6 mt-4 pt-4">
                 <div class="col-xl-8 offset-xl-2 banner">
@@ -130,7 +115,7 @@
     <section id="seccion-1" class="bg-ligth pt-5 pb-5">
         <div class="container">
             <div class="row mb-5 ">
-                <div class="col-lg-5 d-flex align-items-center mb-5 mb-lg-0 wow data-wow-duration= '2s' animate__animated animate__backInLeft ">
+                <div class="col-lg-5 d-flex align-items-center mb-5 mb-lg-0">
                     <div>
                         <h1 class="pb-3">Según estudios, casi el 95% de las personas no confían en los <a
                                 href="https://truelist.co/blog/ux-statistics/" target="_blank">sitios web obsoletos</a>
@@ -153,14 +138,14 @@
                 <div class="col-lg-6 order-2 order-lg-1">
                     <img src="img/img-03.png" class="img-fluid">
                 </div>
-                <div class="col-lg-5 offset-lg-1 d-flex align-items-center order-1 order-lg-2 mb-5 mb-lg-0 wow data-wow-duration= '2s' animate__animated animate__backInRight">
+                <div class="col-lg-5 offset-lg-1 d-flex align-items-center order-1 order-lg-2 mb-5 mb-lg-0">
                     <div>
                         <h1 class="mb-3 text-end">¿Sabias que una buena interfaz de usuario puede aumentar las tasas de
                             conversión del sitio <a href="https://truelist.co/blog/ux-statistics/" target="_blank">web
                                 hasta en un 200%?</a></h1>
                         <p class="lead text-muted text-end">"La investigación sirve para comprender quien es nuestro usuario y que necesidades, objetivos y motivaciones tiene"
                         </p>                                            
-                                <a href="https://drive.google.com/file/d/1wsfAvBNB6zKh7b5t4aPl0LmV0l0UDYzK/view?usp=sharing"
+                                <a href="https://drive.google.com/file/d/12jcDt9sOxt9-T6SUgJaZaKlmwE8AFW_B/view?usp=sharing"
                             target="_blank" class="btn btn-outline-dark btn-sm mb-5 d-block"><img class="p-2"
                                 src="./img/pdf-logo.svg" alt="">Aquí puedes ver mi Curriculum</a>
                         
@@ -250,8 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Imagen smartphone -->
-                    <div class="col-lg-6 position-relative d-lg-flex justify-content-center  pt-5 d-none wow data-wow-duration= '2s' animate__animated animate__headShake animate__infinite animate__infinite animate__delay-2s">
+                    <div class="col-lg-6 position-relative d-lg-flex justify-content-center  pt-5 d-none">
                         <img src="./img/img-06.png" class="img-fluid position-absolute bottom-0">
                     </div>
                 </div>
@@ -270,59 +254,48 @@
                             <h1 class="pb-4 text-center">Portafolio de Proyectos</h1>
                             <div class="card-group">
                                 <!-- ******CARDS I ******* -->
-                                <div class="card wow animate__animated animate__zoomInUp">
+                                <div class="card">
                                     <img src="./img/card-boots.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Wireframes y Prototipos</h5>
                                         <hr>
                                         
-                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt="">
-                                                <a href="./html/wireframe-codeate.html"
-                                                target="_blank" class="text-dark"> 
-                                                Wireframe - Rediseño Sitio Web Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt=""><a href="https://www.figma.com/proto/lQD0V4f1voVq7yX8CrBTtN/Redise%C3%B1o-Codeate?page-id=42%3A115&node-id=219%3A5335&viewport=-459%2C-546%2C0.17&scaling=min-zoom&starting-point-node-id=219%3A5335"
+                                                target="_blank" class="text-dark"> Wireframe -
+                                                Rediseño Sitio Web Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p>
                                         </a>
                                         <hr>
                                         
                                             <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt="">
-                                                <a href="./html/prototipo-codeate.html"
-                                                target="_blank" class="text-dark"> 
-                                                Prototipo - Flujo de Compra Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                                <a href="https://www.figma.com/proto/lQD0V4f1voVq7yX8CrBTtN/Redise%C3%B1o-Codeate?page-id=42%3A100&node-id=269%3A1337&viewport=580%2C347%2C0.08&scaling=min-zoom&starting-point-node-id=269%3A1337"
+                                                target="_blank" class="text-dark"> Prototipo -
+                                                Flujo de Compra Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p>
                                         </a>
                                         <hr>
-                                        <a href="./html/wireframe-dalecuerda.html" target="_blank">
-                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt=""> 
-                                                Wireframe - Proyecto Ecommerce Dalecuerda <img src="./img/external-link.svg" class="p-1" alt=""></p>
-                                        </a>
-                                        <hr>
-                                        <a href="./html/wireframe-porotapp.html" target="_blank">
-                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt=""> 
-                                                Wireframe -Proyecto App de Recetas <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                        <a href="https://www.figma.com/proto/5ajTdL7WFVEGHgmQMN1MXt/Wireframes?page-id=0%3A1&node-id=1%3A874&viewport=261%2C412%2C0.06&scaling=min-zoom" target="_blank">
+                                            <p class="card-text p-1"><img src="./img/Figma-logo-color.svg" class="p-1" alt=""> Wireframe -
+                                                Proyecto Ecommerce Dalecuerda <img src="./img/external-link.svg" class="p-1" alt=""></p>
                                         </a>
                                         <hr>
                                     </div>
                                     <div class="card-footer bg-dark">
                                         <small class="text-muted">...</small>
-                                    </div> 
+                                    </div>
                                 </div>
                                 <!-- ******CARDS II ******* -->
-                                <div class="card wow data-wow-delay= '3s' animate__animated animate__zoomInUp">
+                                <div class="card">
                                     <img src="./img/card-ux.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">UX Research</h5>
                                         <hr>
-                                        <a target="_blank" href="https://www.behance.net/gallery/145766603/UX-Research">
+                                        <a href="https://www.behance.net/gallery/145766603/UX-Research">
                                             <p class="card-text p-1"><img src="./img/behance-logo-color.svg" class="p-1" class="p-1" alt=""> DCU -
                                                 Rediseño Sitio Web Codeate.cl <img src="./img/external-link.svg" class="p-1" alt=""></p> 
                                         </a>
                                         <hr>
-                                        <a target="_blank" href="https://www.behance.net/gallery/146273711/Research-Ecommerce-Dalecuerda">
-                                            <p class="card-text p-1"><img src="./img/behance-logo-color.svg" class="p-1" alt=""> 
-                                                Research - Ecommerce "Dalecuerda"     <img src="./img/external-link.svg" class="p-1" alt=""></p>
-                                        </a>
-                                        <hr>
                                         <a href="#">
                                             <p class="card-text p-1"><img src="./img/behance-logo-color.svg" class="p-1" alt=""> 
-                                                Próximamente mas proyectos      <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                                Próximamente mas proyectos     <img src="./img/external-link.svg" class="p-1" alt=""></p>
                                         </a>
                                         <hr>
                                         <a href="#">
@@ -332,28 +305,23 @@
                                         <hr>
                                     </div>
                                     <div class="card-footer bg-dark">
-                                        <small class="text-muted">...</small>
+                                        <small class="text-warning">...</small>
                                     </div>
                                 </div>
                                 <!-- ******CARDS III ******* -->
-                                <div class="card wow data-wow-delay= '5s' animate__animated animate__zoomInUp">
+                                <div class="card">
                                     <img src="./img/card-front.png" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Desarrollo Frontend</h5>
                                         <hr>
                                         <a href="https://axel-emk.github.io/Proyecto-Ecommerce-Dalecuerda/" target="_blank">
-                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" class="p-1" alt=""> 
-                                               Proyecto Dalecuerda - Frontend <img src="./img/external-link.svg" class="p-1" alt=""></p>
-                                        </a>
-                                        <hr>
-                                        <a target="_blank" href="https://axel-emk.github.io/LaFormaGames/index.html">
-                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" alt="">  
-                                                LaFormaGames - Portal de Webgames <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" class="p-1" alt=""> Front en
+                                                Bootstrap - Proyecto Dalecuerda <img src="./img/external-link.svg" class="p-1" alt=""></p>
                                         </a>
                                         <hr>
                                         <a href="">
-                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" alt=""> 
-                                                Próximamente mas proyectos     <img src="./img/external-link.svg" class="p-1" alt=""></p>
+                                            <p class="card-text p-1"><img src="./img/github-logo-black.svg" class="p-1" alt="">  
+                                                Próximamente mas proyectos    <img src="./img/external-link.svg" class="p-1" alt=""></p>
                                         </a>
                                         <hr>
                                         <a href="">
@@ -369,8 +337,7 @@
                             </div>
                         </div>
                     </div>
-
-
+    
                 </div>
             </div>
         </div>
@@ -382,7 +349,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 position-relative d-lg-flex justify-content-center pt-5 mt-5 d-none">
-                        <img src="./img/img-08.png" class="img-fluid position-absolute pt-2 mt-3">
+                        <img src="./img/img-07.png" class="img-fluid position-absolute pt-2 mt-3">
                     </div>
 
 
@@ -476,7 +443,7 @@
 
             <div class="row border-top pt-4 g-0">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="./img/logo-dark.svg" class="img-fluid">
+                    <img src="./img/logo1.svg" class="img-fluid">
 
                 </div>
                 <div class="col-lg-6">
@@ -501,21 +468,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-        <script src="js/wow.min.js"></script>
-        <script>
-        new WOW().init();
-        </script>
-    <!-- Hotjar Tracking Code for https://axel-emk.github.io/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3146477,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
+        <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
 </body>
 </html>
