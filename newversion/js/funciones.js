@@ -75,6 +75,7 @@ const cambiarClassName = () =>{
     };
 
     return logos();
+    
 
 };
 
