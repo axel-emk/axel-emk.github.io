@@ -115,7 +115,7 @@ li{
 .text-warning { color: var(--warning) !important; }
 .text-white{ color: var(--white) !important; }
 .text-blanco{ color: var(--white) ; }
-.text-noche{ color: var(--sark) ; }
+.text-noche{ color: var(--dark) ; }
 
 small { font-size: var(--small); }
 .fw-medium { font-weight: var(--medium); }
@@ -218,7 +218,7 @@ small { font-size: var(--small); }
     background-image: linear-gradient(to left, var(--primary), var(--dark) );
 }
 .gradient-light{
-    background-image: linear-gradient(to left, var(--warning), var(--white) );
+    background-image: linear-gradient(to left, var(--muted), var(--white) );
 }
 
 /* .prueba{
