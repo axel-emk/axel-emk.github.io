@@ -225,4 +225,9 @@ small { font-size: var(--small); }
     background-image: linear-gradient(to right, darkslategray, black);
 } */
 
-
+.avatar{
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    /* border:10px solid var(--dark); */
+}
