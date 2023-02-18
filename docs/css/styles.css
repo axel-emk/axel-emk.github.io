@@ -93,7 +93,7 @@ p{
 a{
     font-family: var(--mainFont) !important;
     /* font-size: 20px !important; */
-    font-weight: 400 !important;
+    /* font-weight: 400 !important; */
     /* color: var(--primary) ; */
     text-decoration: none;
 }
