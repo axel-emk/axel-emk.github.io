@@ -1,4 +1,4 @@
-/* Variables */
+/* --------------------------Variables--------------------------------------- */
 :root {
     --dark: #1A2C54 ;
     --primary: #739FFF;
@@ -11,21 +11,16 @@
     --h1: 3.5rem;
   }
 
-/* ClassName Bootstrap */
+/* -------------------------ClassName Bootstrap-------------------------------- */
 
 .nav-link{
     font-size: 20px !important;
 }
 
-/* .shadow{
-    box-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2) !important;
-} */
-
-/* Etiquetas */
+/* -----------------------------------Etiquetas-------------------------------------- */
 
 body {
     font-family: var(--mainFont);
-    /* color: var(--dark); */
     position: relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -35,66 +30,48 @@ header{
     display: block;
     margin-bottom: 100px;
 }
-nav{
-    box-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2);
-    /* box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.2); */
-    /* box-shadow: -4px 3px 0 var(--warning), -14px 7px 0 var(--primary); */
-    /* box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.6); */
-
-}
 
 
-/* Tipografia */
+/* ---------------------------------Tipografia------------------------------------------- */
 h1{
     font-family: var(--mainFont);
     font-weight: 700 !important;
-    /* color: var(--dark); */
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2);
-
 }
 
 
 h2{
     font-family: var(--mainFont);
     font-weight: 700 !important;
-    /* color: var(--dark); */
 }
 
 h3{
     font-family: var(--mainFont);
     font-weight: 700 !important;
-    /* color: var(--dark); */
     font-size: 18px;
-
 }
 
 h4{
     font-family: var(--mainFont);
     font-weight: 400 !important;
     font-size: 22px !important;
-    /* color: var(--primary); */
-
 }
+
 h5{
     font-family: var(--mainFont);
     font-weight: 400 !important;
     font-size: 25px !important;
-    /* color: var(--primary); */
-
 }
 
 p{
     font-family: var(--mainFont) !important;
     font-weight: 300 !important;
     font-size: 18px;
-    /* color: var(--dark); */
 }
 
 a{
     font-family: var(--mainFont) !important;
     /* font-size: 20px !important; */
     font-weight: 400 !important;
-    /* color: var(--primary) ; */
     text-decoration: none;
 }
 
@@ -102,7 +79,7 @@ li{
     font-family: var(--mainFont);
 }
 
-/* BG - Colors */
+/* -------------------------------BG - Colors------------------------------------------------------ */
 .bg-dark { background-color: var(--dark) !important; }
 .bg-grey { background-color: var(--grey) !important;  }
 .bg-white { background-color: var(--white) !important;  }
@@ -110,7 +87,7 @@ li{
 .bg-gradient { background-image: linear-gradient(0deg, rgba(115,159,255,0.7) 0%, rgba(115,159,255,0.5) 20%, rgba(240,240,240,0) 85%) !important;}
 
 
-/* text-colors */
+/* ---------------------------------text-colors------------------------------------------ */
 /* Intercactivos */
 .text-ligth { color: var(--dark); }
 .text-ligth:hover { color: var(--primary) !important;}
@@ -137,6 +114,8 @@ li{
 .text-primary { color: var(--primary) !important; }
 .text-warning { color: var(--warning) !important; }
 .text-white{ color: var(--white) !important; }
+.text-blanco{ color: var(--white) ; }
+.text-noche{ color: var(--dark) ; }
 
 small { font-size: var(--small); }
 .fw-medium { font-weight: var(--medium); }
@@ -186,7 +165,7 @@ small { font-size: var(--small); }
     background-color: var(--dark) !important;
 }
 
-/* New JS */
+/* -----------------------New JS---------------------------------- */
 #nigthLink{
     font-size: 40px;
     color: var(--primary);
@@ -200,7 +179,7 @@ small { font-size: var(--small); }
     0 0.0625em 0 #2cfcfd, 
     0 -0.03125em 0 #fb203b, 
     0 -0.0625em 0 #fefc4b; */
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2);
+    /* text-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2); */
 }   
 
 #nigthLink:hover{
@@ -215,54 +194,40 @@ small { font-size: var(--small); }
 
 }
 
-/* ----------Banner------------- */
-#banner{
-    background-image: linear-gradient(0deg, rgba(115,159,255,0.3) 0%, rgba(115,159,255,0.1) 20%, rgba(240,240,240,0) 85%) !important;
+/* -------------------------Shadows------------------------------------------------ */
+.shadow-blur{
+    box-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2);
+}
+.shadow-line{
     box-shadow: 0px 3px 0 var(--warning), 0px 7px 0 var(--primary);
 }
-
-/* ---------Contenido---------- */
-.contenido{
-    background-color: #F0F0F0;
-    justify-content: center;
+.shadow-line-up{
+    box-shadow: 0px -3px 0 var(--warning), 0px -7px 0 var(--primary);
 }
 
-.contenido img{
-    width: 100%;
+.texto-shadow{
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.1), 0px -5px 35px rgba(255,255,255,0.2); 
 }
 
-.contenido h3{
-    color: var(--dark);
+/* ----------------------------Gradients-------------------------------------------- */
+.gradient-sky{
+    background-image: linear-gradient(0deg, rgba(115,159,255,0.3) 0%, rgba(115,159,255,0.1) 20%, rgba(240,240,240,0) 85%) !important;
 }
 
-.contenido2{
-    background-color: #1D325F;
-    justify-content: center;
-}
-
-.contenido2 p{
-    color: #F0F0F0;
-}
-.contenido2 h3{
-    color: #F0F0F0;
-}
-
-
-
-
-
-.prueba{
+.gradient-night{
     background-image: linear-gradient(to left, var(--primary), var(--dark) );
 }
-.prueba2{
-    background-image: linear-gradient(to left, var(--warning), var(--white) );
+.gradient-light{
+    background-image: linear-gradient(to left, var(--muted), var(--white) );
 }
+
 /* .prueba{
     background-image: linear-gradient(to right, darkslategray, black);
 } */
 
-/* #grad1 {
-    height: 200px;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-  } */
-
+.avatar{
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    /* border:10px solid var(--dark); */
+}

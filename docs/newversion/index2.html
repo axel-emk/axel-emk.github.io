@@ -38,10 +38,11 @@
     <article class="row ">
       <div class="col-12 ">
 
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-blur">
           <div class="container">
             <a class="p-2 flex-grow-1 animate__animated animate__pulse animate__repeat-3 animate__delay-3s" href="#">
-              <img id="logo" src="./img/logo-ligth.svg"></a>
+              <img id="logo" src="./img/logo-ligth.svg">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -52,7 +53,7 @@
                   <a class="nav-link text-ligth" onclick="" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-ligth" onclick="" href="#">Acerca de mi</a>
+                  <a class="nav-link text-ligth" onclick="" href="#mi">Acerca de mi</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-ligth" href="#">Portafolio</a>
@@ -73,7 +74,7 @@
   </header>
 
   <!-- --------------------Banner-------------------------------- -->
-  <section class="container-fluid" id="banner">
+  <section class="container-fluid gradient-sky shadow-line" >
     <article class="row">
       <div class="col-auto">
         <!-- Carrusel -->
@@ -84,15 +85,15 @@
               <!-- Articulo Contenido  -->
               <article class="row justify-content-center align-items-center mb-5 animate__animated animate__pulse ">
               <div class="col-lg-4 col-sm-12 ms-lg-5 ">
-                <h1 class="pb-3 text-dark mb-3 ">Según estudios, casi el 95% de las personas no confían en los <a
+                <h1 class="pb-3 text-dark texto-shadow mb-3">Según estudios, casi el 95% de las personas no confían en los <a
                   class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
                     href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">sitios web obsoletos</a>
                 </h1>
-                <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block  mb-5">
+                <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block mb-5 shadow-blur">
                   <img class="p-2" src="./img/behance-logo.svg" alt="">Portafolio UX/UI</a>     
               </div>
-              <div class="col-lg-5 col-sm-12 ms-lg-5">
-                <img src="./img/img-03.png" class="img-fluid">
+              <div class="col-lg-5 col-sm-12 ms-lg-5 ">
+                <img src="./img/banner1.png" class="img-fluid">
               </div>
               </article>
             </div>
@@ -101,14 +102,14 @@
               <!-- Articulo Contenido  -->
               <article class="row justify-content-center align-items-center mb-5 animate__animated animate__pulse ">
                 <div class="col-lg-5 col-sm-12 ms-lg-5">
-                  <img src="./img/img-03.png" class="img-fluid">
+                  <img src="./img/banner2.png" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-sm-12 ms-lg-5 ">
-                  <h1 class="pb-3 text-dark mb-3 ">Según estudios, casi el 95% de las personas no confían en los <a
+                  <h1 class="pb-3 text-dark texto-shadow mb-3">Según estudios, casi el 95% de las personas no confían en los <a
                     class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
                       href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">sitios web obsoletos</a>
                   </h1>
-                  <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block  mb-5">
+                  <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block  mb-5 shadow-blur">
                     <img class="p-2" src="./img/behance-logo.svg" alt="">Portafolio UX/UI</a>     
                 </div>
                 </article>
@@ -117,15 +118,15 @@
             <div class="carousel-item" data-bs-interval="5000">
               <article class="row justify-content-center align-items-center mb-5 animate__animated animate__pulse ">
                 <div class="col-lg-4 col-sm-12 ms-lg-5 ">
-                  <h1 class="pb-3 text-dark mb-3 ">Según estudios, casi el 95% de las personas no confían en los <a
+                  <h1 class="pb-3 text-dark texto-shadow mb-3">Según estudios, casi el 95% de las personas no confían en los <a
                     class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
                       href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">sitios web obsoletos</a>
                   </h1>
-                  <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block  mb-5">
+                  <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block  mb-5 shadow-blur">
                     <img class="p-2" src="./img/behance-logo.svg" alt="">Portafolio UX/UI</a>     
                 </div>
                 <div class="col-lg-5 col-sm-12 ms-lg-5">
-                  <img src="./img/img-03.png" class="img-fluid">
+                  <img src="./img/banner3.png" class="img-fluid">
                 </div>
                 </article>
             </div>            
@@ -145,17 +146,33 @@
     </article>
   </section>
 
+  <!-- --------------------Acerca de mi-------------------------------- -->
+
+  <section class="container-fluid my-5" id="mi">
+    <article class="row align-items-center justify-content-center ">
+
+      <div class="col-lg-3 col-sm-auto my-5">
+        <img class="avatar border border-5 shadow-blur" src="./img/img-02.png" alt="">
+      </div>
+      <div class="col-lg-4 col-sm-auto border border-4">
+        <h2 class="text-dark pt-4 ps-4"> Acerca de mi  </h2>
+        <p class="text-dark p-4">¡Hola! Soy Axel, Diseñador UX/UI y Desarrollador Frontend. Como profesional de la Industria TI disfruto de las distintas metodologías de la Investigación UX, como también las etapas del Diseño UI, me apasiona el generar Wireframes, Prototipos y el Desarrollo Frontend centrado en el Usuario.</p>
+
+      </div>
+    </article>
+  </section>
+
   <!-- --------------------Curriculum-------------------------------- -->
   <section class="container-fluid my-5 ">
     <article class="row m-5">
-      <h1 class="col-12 text-center text-dark mb-3">Las ventajas del diseño de UX/UI</h1>
+      <h2 class="col-12 text-center text-dark mb-3">Las ventajas del diseño de UX/UI</h2>
       <h4 class="col-12 text-center text-dark mt-3">El diseño de la experiencia del usuario (UX) y la interfaz de usuario (UI) te pueden ayudar a:</4>
 
     </article>
     <div class="row row-cols-1 row-cols-md-4 g-4 mx-5">
       <div class="col">
         <div class="card text-bg-light">
-          <img src="./img/banner1.png" class="card-img-top" alt="...">
+          <img src="./img/img1.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title text-dark">Card title</h5>
             <p class="card-text text-dark">Testear tu idea de negocio y comunicarla efectivamente</p>
@@ -164,7 +181,7 @@
       </div>
       <div class="col">
         <div class="card text-bg-light">
-          <img src="./img/banner2.png" class="card-img-top" alt="...">
+          <img src="./img/img2.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title text-dark">Card title</h5>
             <p class="card-text text-dark">Generar una experiencia agradable, eficiente y efectiva</p>
@@ -173,7 +190,7 @@
       </div>
       <div class="col">
         <div class="card text-bg-light">
-          <img src="./img/banner3.png" class="card-img-top" alt="...">
+          <img src="./img/img3.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title text-dark">Card title</h5>
             <p class="card-text text-dark">Mejora la percepción de tu marca.</p>
@@ -191,63 +208,16 @@
       </div>
     </div>
   </section>
-  <!-- <section id="seccion-1" class="bg-ligth pt-5 pb-5">
-    <div class="container">
-      <div class="row mb-5 ">
-        <div
-          class="col-lg-5 d-flex align-items-center mb-5 mb-lg-0 wow data-wow-duration= '2s' animate__animated animate__backInLeft ">
-          <div>
-            <h1 class="pb-3 text-dark">Según estudios, casi el 95% de las personas no confían en los <a
-              class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
-                href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">sitios web obsoletos</a>
-            </h1>
-
-            <p class="lead text-muted pb-4">¡Hola! Soy Axel, Diseñador UX/UI y Desarrollador Frontend.
-              Como profesional de la Industria TI disfruto de las distintas metodologías de la Investigación UX, como
-              también
-              las etapas del Diseño UI, me apasiona el generar Wireframes, Prototipos y el Desarrollo
-              Frontend centrado en el Usuario.</p>
-            <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block"><img
-                class="p-2" src="./img/behance-logo.svg" alt="">Portafolio UX/UI</a>
-          </div>
-        </div>
-        <div class="col-lg-6 offset-lg-1">
-          <img src="/img/img-02.png" class="img-fluid">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 order-2 order-lg-1">
-          <img src="img/img-03.png" class="img-fluid">
-        </div>
-        <div
-          class="col-lg-5 offset-lg-1 d-flex align-items-center order-1 order-lg-2 mb-5 mb-lg-0 wow data-wow-duration= '2s' animate__animated animate__backInRight">
-          <div>
-            <h1 class="mb-3 text-dark text-end">¿Sabias que una buena interfaz de usuario puede aumentar las tasas de
-              conversión del sitio <a href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">web
-                hasta en un 200%?</a></h1>
-            <p class="lead text-muted text-end">"La investigación sirve para comprender quien es nuestro usuario y que
-              necesidades, objetivos y motivaciones tiene"
-            </p>
-            <a href="https://drive.google.com/file/d/1wsfAvBNB6zKh7b5t4aPl0LmV0l0UDYzK/view?usp=sharing" target="_blank"
-              class="btn btn-outline-dark btn-sm mb-5 d-block"><img class="p-2" src="./img/pdf-logo.svg" alt="">Aquí
-              puedes ver mi Curriculum</a>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
+  
   <!-- -------------------- Skills Habilidades -------------------------------- -->
   <section class=" pb-0 pt-5 ">
-    <div class="prueba shadow">
+    <div class="gradient-night shadow-blur wow animate__animated animate__fadeInRight">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <div class="py-5 my-5">
-              <h1 class="pb-1 text-white ">Habilidades y Conocimientos</h1>
-              <p class="pb-1 col-10 text-white ">Cada proceso es único y diferente, donde la adaptabilidad es un pilar
+              <h1 class="pb-1 text-blanco ">Habilidades y Conocimientos</h1>
+              <p class="pb-1 col-10 text-blanco ">Cada proceso es único y diferente, donde la adaptabilidad es un pilar
                 importante para estar preparado para la constante iteración que lleva un proceso de investigación UX.
               </p>
               <div class="col-lg-10">
@@ -281,7 +251,7 @@
                   <!-- Acordeon II-->
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse"
+                      <button class="accordion-button collapsed bg-light text-dark" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Aplicaciones y Softwares
                       </button>
@@ -299,7 +269,7 @@
                   <!-- Acordeon III -->
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse"
+                      <button class="accordion-button collapsed bg-light text-dark" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Habilidades técnicas
                       </button>
@@ -329,7 +299,7 @@
   </section>
 
   <!-- ---------------------Portafolio------------------------- -->
-  <section id="seccion-2" class="bg-ligth pb-0 ">
+  <section class="container-fluid bg-ligth pb-0 ">
     <div class="bg-ligth">
       <div class="container">
         <div class="row">
@@ -447,14 +417,48 @@
     </div>
   </section>
 
+  <!-- ----------------FOOTER--------------------- -->
+  <footer class="container-fluid bg-light  shadow-line-up wow animate__animated animate__fadeIn">
+    <div class="row justify-content-center text-center">
+      <div class="col">
+        <img class="m-5" id="logo" src="./img/logo-ligth.svg">
+      </div>
+      <div class="col">
+        
+      </div>
+      <div class="col mt-5">
+        <div class="col-lg-6">
+          <div class="d-flex justify-content-lg-end">
+              <p class="text-white me-3 mb-0">Buscame en:</p>
+              <ul class="list-inline">
+                  <li class="list-inline-item me-3"><a href="https://www.linkedin.com/in/axelzamorano/"
+                          target="_blank"><img src="./img/linkedin-logo.svg"></a></li>
+                  <li class="list-inline-item me-3"><a href="https://www.behance.net/axelzamoranov"
+                          target="_blank"><img src="./img/behance-logo.svg"></a>
+                  </li>
+                  <li class="list-inline-item"><a href="https://github.com/axel-emk" target="_blank"><img
+                              src="./img/github-logo.svg"></a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a href="./newversion/index2.html" target="_blank"><h4>2023</h4></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </div>
+  </footer>
 
 
-  <div id="grad1"></div>
+  
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <script src="./js/funciones.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 
 </body>
