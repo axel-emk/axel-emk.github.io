@@ -16,6 +16,7 @@ const logos = () => {
 // ---------------------------------------------------------------------------------------------------
 const cambiarClassName = () =>{
     // Elementos ClassName - ID
+    const navbar = document.getElementsByClassName('navbar');
     const lightColor = document.getElementsByClassName('bg-light');
     const cardLigth = document.getElementsByClassName('text-bg-light');
     const textLigth = document.getElementsByClassName('text-ligth');  
@@ -28,6 +29,10 @@ const cambiarClassName = () =>{
     const nigthLink = document.querySelectorAll("a[id='nigthLink']");
     
     // Ciclo For para poder seleccionar todas las class
+    for(let i = 0; i < navbar.length; i++ )
+    {
+        navbar[i].classList.toggle('navbar-dark');        
+    };
     for(let i = 0; i < lightColor.length; i++ )
     {
         lightColor[i].classList.toggle('bg-dark');        
