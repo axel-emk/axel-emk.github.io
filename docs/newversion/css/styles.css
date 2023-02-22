@@ -295,7 +295,7 @@ small {
 }
 
 .label {
-    width: 60px;
+    width: 61px;
     height: 26px;
     background-color: #ebebeb;
     box-shadow: inset 0px 1px 5px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
@@ -315,7 +315,7 @@ small {
     width: 22px;
     height: 22px;
     /* background-color: white; */
-    background: linear-gradient(180deg,#ffcc89,#d8860b);
+    background: linear-gradient(to top, var(--muted), var(--white));
     position: absolute;
     top: 2px;
     left: 2px;
