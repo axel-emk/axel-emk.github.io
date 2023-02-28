@@ -1,6 +1,10 @@
 // Cambio img
 // ---------------------------------------------------------------------------------------------------
 let imgLogo = "logo-ligth";
+let imgBehance = "logo-behance-color";
+let imgLinkedin = "logo-linkedin-dark";
+let imgGithub = "logo-github-black";
+
 const logos = () => {
     const logoNigth = document.getElementById('logo');
     if(imgLogo == 'logo-ligth'){
