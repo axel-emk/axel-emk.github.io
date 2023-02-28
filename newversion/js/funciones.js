@@ -1,16 +1,38 @@
 // Cambio img
 // ---------------------------------------------------------------------------------------------------
 let imgLogo = "logo-ligth";
+let imgOtra = "otra-imagen-ligth";
+
 const logos = () => {
     const logoNigth = document.getElementById('logo');
+    const otraImagenNigth = document.getElementById('otra-imagen');
     if(imgLogo == 'logo-ligth'){
         logoNigth.src=('./img/logo-dark.svg');
+        otraImagenNigth.src=('./img/otra-imagen-dark.svg');
         imgLogo = 'logo-dark';  
-    }else{
+        imgOtra = 'otra-imagen-dark';          
+    // } else if(imgOtra == 'otra-imagen-ligth') {
+    //     otraImagenNigth.src=('./img/otra-imagen-dark.svg');
+    //     imgOtra = 'otra-imagen-dark';          
+    } else {
         logoNigth.src=('./img/logo-ligth.svg');
-        imgLogo = 'logo-ligth';          
-    }  
+        otraImagenNigth.src=('./img/otra-imagen-ligth.svg');
+        imgLogo = 'logo-ligth'; 
+        imgOtra = 'otra-imagen-ligth'; 
+    }    
+    
 };
+
+// const logos = () => {
+//     const logoNigth = document.getElementById('logo');
+//     if(imgLogo == 'logo-ligth'){
+//         logoNigth.src=('./img/logo-dark.svg');
+//         imgLogo = 'logo-dark';  
+//     }else{
+//         logoNigth.src=('./img/logo-ligth.svg');
+//         imgLogo = 'logo-ligth';          
+//     }  
+// };
 
 // ClassName
 // ---------------------------------------------------------------------------------------------------
@@ -78,6 +100,7 @@ const cambiarClassName = () =>{
         // Gradient Night
         gradientNight[i].classList.toggle('gradient-light');
     };
+    
 
     return logos();
     
