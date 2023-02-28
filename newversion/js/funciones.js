@@ -4,11 +4,14 @@ let imgLogo = "logo-ligth";
 let imgOtra = "otra-imagen-ligth";
 
 const logos = () => {
+
     const logoNigth = document.getElementById('logo');
     const otraImagenNigth = document.getElementById('otra-imagen');
+
     if(imgLogo == 'logo-ligth'){
         logoNigth.src=('./img/logo-dark.svg');
         otraImagenNigth.src=('./img/otra-imagen-dark.svg');
+
         imgLogo = 'logo-dark';  
         imgOtra = 'otra-imagen-dark';          
     // } else if(imgOtra == 'otra-imagen-ligth') {
@@ -17,6 +20,7 @@ const logos = () => {
     } else {
         logoNigth.src=('./img/logo-ligth.svg');
         otraImagenNigth.src=('./img/otra-imagen-ligth.svg');
+        
         imgLogo = 'logo-ligth'; 
         imgOtra = 'otra-imagen-ligth'; 
     }    
