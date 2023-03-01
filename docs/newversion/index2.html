@@ -33,7 +33,7 @@
   <title>La Forma Gráfica </title>
 </head>
 
-<body class="bg-light bg-gradient" id="toggle">
+<body class="bg-light bg-gradient">
 
   <!-- --------------------Header-------------------------------- -->
   <header class="container ">
@@ -66,11 +66,7 @@
               </ul>
               <!--  input checkbox toggle -->
 
-              <!-- <div class="form-check form-switch mx-5">
-                <input class="form-check-input" type="checkbox" role="switch" id="toggle" onclick="cambiarClassName()">
-              </div> -->
-
-              <div class="ps-5">
+              <div class="ps-5 m-3 d-flex justify-content-end" id="toggle">
                 <input type="checkbox" class="checkbox" id="checkbox" onclick="cambiarClassName()">
                 <label for="checkbox" class="label">
                   <i class='fas fa-sun'></i>
@@ -96,16 +92,14 @@
           id="carrusel">
           <div class="carousel-inner">
             <!-- first img -->
-            <div class="carousel-item active" data-bs-interval="6000">
+            <div class="carousel-item active" data-bs-interval="5000">
               <!-- Articulo Contenido  -->
               <article class="row justify-content-center align-items-center mb-5 animate__animated animate__pulse ">
                 <div class="col-lg-4 col-sm-12 ms-lg-5 ">
-                  <h1 class="pb-3 text-dark texto-shadow mb-3">El 60% de los compradores en línea usarán solo
-                    dispositivos móviles para <a
-                      class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
-                      href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">tomar decisiones de
-                      compra.
-                    </a>
+                  <h1 class="pb-3 text-dark texto-shadow mb-3">Según estudios, casi el 95% de las personas no confían en
+                    los <a class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
+                      href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">sitios web
+                      obsoletos.</a>
                   </h1>
                   <!-- <a href="https://www.behance.net/axelzamoranov" target="_blank"
                     class="btn btn-primary btn-sm d-block mb-5 shadow-blur">
@@ -121,18 +115,23 @@
               </article>
             </div>
             <!-- Second img - interval:time -->
-            <div class="carousel-item" data-bs-interval="6000">
+            <div class="carousel-item" data-bs-interval="10000">
               <!-- Articulo Contenido  -->
               <article class="row justify-content-center align-items-center mb-5 animate__animated animate__pulse ">
                 <div class="col-lg-5 col-sm-12 ms-lg-5">
                   <img src="./img/banner2.png" class="img-fluid">
                 </div>
                 <div class="col-lg-4 col-sm-12 ms-lg-5 ">
-                  <h1 class="pb-3 text-dark texto-shadow mb-3">Según estudios, casi el 95% de las personas no confían en
-                    los <a class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
-                      href="https://truelist.co/blog/ux-statistics/" id="nigthLink" target="_blank">sitios web
-                      obsoletos</a>
-                  </h1>
+                  <h1 class="pb-3 text-dark texto-shadow mb-3" >Algunas de las ventajas del <a class="animate__animated animate__pulse animate__repeat-3 animate__delay-3s"
+                    href="https://uxenespanol.com/ux/" id="nigthLink" target="_blank">
+                    Diseño de UX/UI </a>
+                    aplicado a una web.</h1>
+                  <ul class="list-group">
+                    <li class="listBanner ms-4"><p class="text-dark">Testear tu idea de negocio y comunicarla efectivamente.</p></li>
+                    <li class="listBanner ms-4"><p class="text-dark">Generar una experiencia agradable, eficiente y efectiva.</p></li>
+                    <li class="listBanner ms-4"><p class="text-dark">Mejora la percepción de tu marca.</p></li>
+                    <li class="listBanner ms-4"><p class="text-dark">Aumentar la venta y uso de tus productos y servicios.</p></li>
+                                      </ul>
                   <!-- <a href="https://www.behance.net/axelzamoranov" target="_blank" class="btn btn-primary btn-sm d-block  mb-5 shadow-blur">
                     <img class="p-2" src="./img/behance-logo.svg" alt="">Portafolio UX/UI</a>      -->
                   <!-- <h4 class="text-dark fw-light lh-sm">Una web obsoleta, con un diseño anticuado y una funcionalidad
@@ -143,7 +142,7 @@
               </article>
             </div>
             <!-- Three img -->
-            <div class="carousel-item" data-bs-interval="6000">
+            <div class="carousel-item" data-bs-interval="5000">
               <article class="row justify-content-center align-items-center mb-5 animate__animated animate__pulse ">
                 <div class="col-lg-4 col-sm-12 ms-lg-5 ">
                   <h1 class="pb-3 text-dark texto-shadow mb-3">El 83% de los consumidores piensa que una<a
@@ -186,19 +185,25 @@
 
   <!-- --------------------Acerca de mi-------------------------------- -->
   <div class="p-3" id="mi"></div>
-  <section class="container-fluid my-5" >
+  <section class=" caja container-fluid my-5 bg-light border border-4 shadow-blur">
     <article class="row row-cols-1 row-cols-md-4 align-items-center justify-content-center pt-5">
-
-      <div class="col-xl-3 col-lg-5 col-md-5 col-sm-auto text-center wow animate__animated animate__rotateInDownLeft">
-        <img class="avatar border border-5 shadow-blur mb-5" src="./img/img-02.png" alt="">
+      
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-auto text-center px-5 wow animate__animated animate__backInLeft">
+        <img class="avatar border border-5 shadow-blur  mb-3" src="./img/img-02.png" alt="">
+        <a href="https://drive.google.com/file/d/1wsfAvBNB6zKh7b5t4aPl0LmV0l0UDYzK/view?usp=sharing"
+        target="_blank" class="btn btn btn-outline-light btn-sm mb-5 d-block text-dark"><img class="p-2" id="pdf"
+        src="./img/pdf-logo.svg" alt="">Aquí mi Curriculum</a>
       </div>
-      <div class="col-xl-4 col-lg-5 col-md-5 col-sm-auto bg-light border border-4 mb-5 wow animate__animated animate__rotateInDownRight animate__delay-1s">
-        <h2 class="text-dark pt-4 ps-4"> Acerca de mi </h2>
-        <p class="text-dark p-4 ">¡Hola! Soy Axel, Diseñador UX/UI y Desarrollador Frontend. 
-          Como profesional de la Industria TI disfruto de las distintas metodologías de la Investigación UX, como también las etapas del Diseño
-          UI, me apasiona el generar Wireframes, Prototipos y el Desarrollo Frontend centrado en el Usuario.</p>
-
-      </div>
+      <div
+      class="col-xl-6 col-lg-7 col-md-10 col-sm-auto mx-2 mb-5 wow animate__animated animate__backInRight animate__delay-1s">
+      <h2 class="text-dark  pt-4 ps-4 "> Acerca de mi </h2>
+        <h3 class="text-dark px-4 pt-4 ">¡Hola! Soy Axel, Diseñador UX/UI y Desarrollador Frontend.</h3>
+        <p class="text-dark px-4  pt-2 "> Como profesional de la Industria TI busco crear soluciones digitales centradas
+          en el usuario DCU, que sean eficientes, intuitivas y accesibles, que satisfagan las necesidades y expectativas
+          de los usuarios finales. Creo en la importancia de comprender a los usuarios y aplicar ese conocimiento para
+          crear productos significativos y útiles. </p>
+        <p class="text-dark px-4 pt-2  "> Mi objetivo como Diseñador y Desarrollador es crear interfaces de usuario atractivas que cumplan con los objetivos del negocio y las necesidades del cliente utilizando tecnologías y frameworks de vanguardia como Figma, Bootstrap y React para generar Prototipos de baja-alta calidad, Mockups y Web App.</p>
+        </div>
     </article>
   </section>
 
@@ -207,14 +212,14 @@
 
 
   <!-- --------------------Curriculum-------------------------------- -->
-  <section class="container-fluid my-5 ">
-    <article class="row m-5 wow animate__animated animate__rotateInUpLeft animate__delay-2s">
+  <!-- <section class="container-fluid my-5 ">
+    <article class="row m-5 wow animate__animated animate__rotateInUpLeft animate__delay-1s">
       <h2 class="col-12 text-center text-dark mb-3">Las ventajas del diseño de UX/UI</h2>
       <h4 class="col-12 text-center text-dark mt-3">El diseño de la experiencia del usuario (UX) y la interfaz de
         usuario (UI) te pueden ayudar a:</4>
 
     </article>
-    <div class="row row-cols-1 row-cols-md-4 g-4 mx-5 wow animate__animated animate__rotateInUpRight animate__delay-3s">
+    <div class="row row-cols-1 row-cols-md-4 g-4 mx-5 wow animate__animated animate__rotateInUpRight animate__delay-2s">
       <div class="col">
         <div class="card text-bg-light">
           <img src="./img/img1.png" class="card-img-top" alt="...">
@@ -253,7 +258,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- -------------------- Skills Habilidades -------------------------------- -->
   <section class=" pb-0 pt-5 ">
@@ -481,11 +486,11 @@
             <p class="text-dark me-3 mb-0">Buscame en:</p>
             <ul class="list-inline">
               <li class="list-inline-item "><a href="https://www.linkedin.com/in/axelzamorano/" target="_blank"><img
-                    src="./img/logo-linkedin-dark.svg"></a></li>
+                    id="linkedin" src="./img/logo-linkedin-dark.svg"></a></li>
               <li class="list-inline-item "><a href="https://www.behance.net/axelzamoranov" target="_blank"><img
-                    src="./img/logo-behance-color.svg"></a>
+                    id="behance" src="./img/logo-behance-color.svg"></a>
               </li>
-              <li class="list-inline-item"><a href="https://github.com/axel-emk" target="_blank"><img
+              <li class="list-inline-item"><a href="https://github.com/axel-emk" target="_blank"><img id="github"
                     src="./img/logo-github-black.svg"></a>
               </li>
               <li class="list-inline-item">
