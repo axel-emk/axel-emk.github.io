@@ -51,7 +51,7 @@ h2 {
 h3 {
     font-family: var(--mainFont) !important;
     font-weight: 600 !important;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 h4 {
@@ -83,6 +83,12 @@ a {
 li {
     font-family: var(--mainFont);
 }
+
+.listBanner{
+    list-style-type: circle;
+    color: var(--primary);
+  }
+
 
 /* -------------------------------BG - Colors------------------------------------------------------ */
 .bg-dark {
