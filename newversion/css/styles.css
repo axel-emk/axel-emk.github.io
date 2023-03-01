@@ -34,20 +34,24 @@ header {
 
 /* ---------------------------------Tipografia------------------------------------------- */
 h1 {
-    font-family: var(--mainFont);
+    font-family: var(--mainFont) !important;
     font-weight: 700 !important;
+    font-size: 2.5rem ;
 }
 
 
 h2 {
-    font-family: var(--mainFont);
+    font-family: var(--mainFont) !important;
     font-weight: 700 !important;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    
 }
 
 h3 {
-    font-family: var(--mainFont);
-    font-weight: 700 !important;
-    font-size: 18px;
+    font-family: var(--mainFont) !important;
+    font-weight: 600 !important;
+    font-size: 1.4rem;
 }
 
 h4 {
@@ -57,7 +61,7 @@ h4 {
 }
 
 h5 {
-    font-family: var(--mainFont);
+    font-family: var(--mainFont) !important;
     font-weight: 400 !important;
     font-size: 25px !important;
 }
@@ -66,8 +70,7 @@ p {
     font-family: var(--mainFont) !important;
     font-weight: 350 !important;
     font-size: 1.25rem;
-    /* font-size: 18px; */
-    /* line-height: 1.5rem; */
+    line-height: 1.8rem;
 }
 
 a {
@@ -80,6 +83,12 @@ a {
 li {
     font-family: var(--mainFont);
 }
+
+.listBanner{
+    list-style-type: circle;
+    color: var(--primary);
+  }
+
 
 /* -------------------------------BG - Colors------------------------------------------------------ */
 .bg-dark {
@@ -283,12 +292,15 @@ small {
 
 /* ------------------------- my design */
 .avatar {
-    width: 300px;
-    height: 300px;
-    border-radius: 160px;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
     /* border:10px solid var(--dark); */
 }
 
+.caja{
+    width: 95%;
+}
 .checkbox {
     opacity: 0;
     position: absolute;
