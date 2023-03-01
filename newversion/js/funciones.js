@@ -5,6 +5,7 @@ let imgOtra = "otra-imagen-ligth";
 let logoLink = "logo-linkedin-dark";
 let logoBeha = "logo-behance-color";
 let logoGit = "logo-github-black";
+let logoPdf = "pdf-logo";
 
 const logos = () => {
 
@@ -13,6 +14,7 @@ const logos = () => {
     const logoLinkedin = document.getElementById('linkedin');
     const logoBehance = document.getElementById('behance');
     const logoGithub = document.getElementById('github');
+    const logoPdfa = document.getElementById('pdf');
     
 
     if(imgLogo == 'logo-ligth'){
@@ -21,12 +23,15 @@ const logos = () => {
         logoLinkedin.src=('./img/logo-linkedin.svg');
         logoBehance.src=('./img/logo-behance.svg');
         logoGithub.src=('./img/logo-github.svg');
+        logoPdfa.src=('./img/pdf-logo-light.svg');
         
         imgLogo = 'logo-dark';  
         imgOtra = 'otra-imagen-dark';   
         logoLink = 'logo-linkedin';  
         logoBeha = 'logo-behance';  
         logoGit = 'logo-github';  
+        logoPdf = 'pdf-logo-light';  
+        
         
     } else {
         logoNigth.src=('./img/logo-ligth.svg');
@@ -34,12 +39,14 @@ const logos = () => {
         logoLinkedin.src=('./img/logo-linkedin-dark.svg');
         logoBehance.src=('./img/logo-behance-color.svg');
         logoGithub.src=('./img/logo-github-black.svg');
+        logoPdfa.src=('./img/pdf-logo.svg');
         
         imgLogo = 'logo-ligth'; 
         imgOtra = 'otra-imagen-ligth'; 
         logoLink = 'logo-linkedin-dark';  
         logoBeha = 'logo-behance-color';  
-        logoGit = 'logo-github-black';  
+        logoGit = 'logo-github-black'; 
+        logoPdf = 'pdf-logo';   
     }    
     
 };
