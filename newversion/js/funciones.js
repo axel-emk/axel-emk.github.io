@@ -2,23 +2,44 @@
 // ---------------------------------------------------------------------------------------------------
 let imgLogo = "logo-ligth";
 let imgOtra = "otra-imagen-ligth";
+let logoLink = "logo-linkedin-dark";
+let logoBeha = "logo-behance-color";
+let logoGit = "logo-github-black";
 
 const logos = () => {
+
     const logoNigth = document.getElementById('logo');
     const otraImagenNigth = document.getElementById('otra-imagen');
+    const logoLinkedin = document.getElementById('linkedin');
+    const logoBehance = document.getElementById('behance');
+    const logoGithub = document.getElementById('github');
+    
+
     if(imgLogo == 'logo-ligth'){
         logoNigth.src=('./img/logo-dark.svg');
         otraImagenNigth.src=('./img/otra-imagen-dark.svg');
+        logoLinkedin.src=('./img/logo-linkedin.svg');
+        logoBehance.src=('./img/logo-behance.svg');
+        logoGithub.src=('./img/logo-github.svg');
+        
         imgLogo = 'logo-dark';  
-        imgOtra = 'otra-imagen-dark';          
-    // } else if(imgOtra == 'otra-imagen-ligth') {
-    //     otraImagenNigth.src=('./img/otra-imagen-dark.svg');
-    //     imgOtra = 'otra-imagen-dark';          
+        imgOtra = 'otra-imagen-dark';   
+        logoLink = 'logo-linkedin';  
+        logoBeha = 'logo-behance';  
+        logoGit = 'logo-github';  
+        
     } else {
         logoNigth.src=('./img/logo-ligth.svg');
         otraImagenNigth.src=('./img/otra-imagen-ligth.svg');
+        logoLinkedin.src=('./img/logo-linkedin-dark.svg');
+        logoBehance.src=('./img/logo-behance-color.svg');
+        logoGithub.src=('./img/logo-github-black.svg');
+        
         imgLogo = 'logo-ligth'; 
         imgOtra = 'otra-imagen-ligth'; 
+        logoLink = 'logo-linkedin-dark';  
+        logoBeha = 'logo-behance-color';  
+        logoGit = 'logo-github-black';  
     }    
     
 };
@@ -109,8 +130,15 @@ const cambiarClassName = () =>{
 
 //  Toggle
 // ---------------------------------------------------------------------------------------------------
-const toggle = document.getElementById('toggle');
-toggle.onclick = () => {
-    return cambiarClassName();
-};
+// const toggle = document.getElementById('toggle');
+// toggle.onclick = () => {
+//     return cambiarClassName();
+// };
 
+window.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('toggle');
+    toggle.onclick = () => {
+      return cambiarClassName();
+    };
+  });
+  
