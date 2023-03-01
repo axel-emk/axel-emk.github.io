@@ -286,12 +286,15 @@ small {
 
 /* ------------------------- my design */
 .avatar {
-    width: 350px;
-    height: 350px;
-    border-radius: 180px;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
     /* border:10px solid var(--dark); */
 }
 
+.caja{
+    width: 95%;
+}
 .checkbox {
     opacity: 0;
     position: absolute;
