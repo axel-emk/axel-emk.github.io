@@ -322,6 +322,23 @@ small {
     transition: 0.3s;
 }
 
+@import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
+.accordion-button:not(.collapsed)::after {
+  content: "\f057";
+  font-family: "Font Awesome 5 Free";
+  color:var(--primary);
+  background-image: none;
+}
+
+.accordion-button.collapsed::after {
+
+  content: "\f058";
+  color: var(--warning);
+  font-weight: 400;
+  font-family: "Font Awesome 5 Free";
+  background-image: none;
+}
+
 
 .ball {
     width: 22px;
